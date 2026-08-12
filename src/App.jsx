@@ -3,6 +3,7 @@ import ReverseLists from "./components/RenderingLists/ReverseLists"
 import Alphabet from "./components/RenderingLists/Alphabet"
 import LetterMatching from "./components/ConditionRendering/LetterMatching"
 import Vowels from "./components/ConditionRendering/Vowels"
+import SameLetter from "./components/ConditionRendering/SameLetter"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Alphabet />
       <LetterMatching />
       <Vowels />
+      <SameLetter />
     </>
   )
 }
